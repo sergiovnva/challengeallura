@@ -1,0 +1,141 @@
+*{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: #f0f0f8;
+}
+
+header {
+    background-color: #f0f0f8;
+    padding: 20px 0;
+}
+
+#logo{
+    width:4%;
+}
+
+main {
+    background-color: #f0f0f8;
+
+}
+
+footer{
+   
+    padding:40px 40%;
+}
+
+
+.input-padron{
+
+    border: none;
+    color: #0A3871;
+    margin: 5% 4% 2%;
+    padding: 0px 25px;
+    height: 400px;
+    width: 55%;
+    border-radius: 20px;
+    resize: none;
+    text-transform: lowercase;
+
+}
+.text-encriptado{
+    border: none;
+    background-color: white;
+    background-image: url("imagenes/muneco.png");
+    background-repeat: no-repeat;
+    background-position: center bottom 30%;
+    vertical-align: top;
+    margin: 0 0 20px;
+    padding: 0px 25px; 
+    height: 465px; 
+    width: 25%;
+    border-radius: 20px;    
+    box-shadow: 2px 5px 30px 1px #a4a4a4;
+    resize: none;
+   
+}
+
+.input-padron::placeholder {
+    color: #0A3871;
+
+}
+.input-padron:focus{
+    outline: none;
+} 
+
+.text-encriptado::placeholder {
+    color: #0A3871;
+}
+
+.text-encriptado:focus{
+    outline: none;
+} 
+
+
+.disclaimer {
+    padding: 0 35px 10px;
+    font-size: 18px;
+}
+
+
+
+.encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    height: 67px;
+    width: 25%;
+   text-align: center;
+   margin-left: 10%;
+   transition: 1s all;
+}
+
+.encriptar:hover{
+    
+    transform: scale(1.02);
+}
+
+.copiar{
+    background-color: #E0E0F8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    height: 67px;
+    width: 25%;
+   text-align: center;
+   margin-left: 10%;
+   transition: 1s all;
+}
+
+.copiar:hover{
+    
+    transform: scale(1.02);
+}
+
+.desencriptar{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    height: 67px;
+    width: 25%;
+   text-align: center;
+   margin-left: 1%;
+   transition: 1s all;
+}
+
+.desencriptar:hover{
+    
+    transform: scale(1.02);
+}
+
+
+
+
+
+
+

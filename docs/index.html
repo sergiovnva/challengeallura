@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>challenge-encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div>
+                <h1><img id="logo" src="imagenes/logo.png" alt="Logo de Alura"></h1>
+            </div>
+        </header>
+        <main>
+            <form>
+                      
+                <textarea class="input-padron" placeholder="ingrese el texto aqui"></textarea>                
+               
+                <textarea class="text-encriptado"placeholder="nada por aqui aun"></textarea> 
+                                                
+                <p class="disclaimer"> &#9888;Solo letras minusculas y sin acentos </p>
+
+                <button  class="encriptar" type="button" onclick="btnEncriptar()">Encriptar</button>
+
+                <button  class="desencriptar" type="button" onclick="btnDesencriptar()">Desencriptar</button>
+
+               <button  class="copiar" type="button" onclick="btnCopiar()">Copiar</button>
+
+                
+            </form>
+
+           
+        </main>
+        <footer>
+                      <p> nombre:Sergio Armando Villanueva Cruz</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
